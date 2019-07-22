@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic html is structural tags that are meaningful to the document and to crawlers with their naming. That is, a header tag is the header, the footer tag is the footer, an article tag can wrap around a blogpost, and so on. That way you don't have a bunch of `divs` with inconsistent classnames that don't indicate what a specific tag is for making for difficult readability.
+Semantic html is structural tags that are meaningful to the document and to crawlers with their naming. That is, a header tag is the header, the footer tag is the footer, an article tag can wrap around a blogpost, and so on. That way you don't have a bunch of `divs` with inconsistent classnames that don't indicate what a specific tag is for. It makes for better readability for both other developers and for search crawlers which can help with SEO.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
