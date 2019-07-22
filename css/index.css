@@ -118,6 +118,42 @@ header nav a {
     text-decoration: none;
     color: #000;
     font-size: 14px;
+    opacity: 0;
+    animation: fadeIn 0.9s 1;
+    animation-fill-mode: forwards;
+}
+  
+header nav a:nth-child(5n+1) {
+    animation-delay: 0.5s;
+}
+
+header nav a:nth-child(5n+2) {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+}
+
+header nav a:nth-child(5n+3) {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+header nav a:nth-child(5n+4) {
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s;
+}
+
+header nav a:nth-child(5n+5) {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+  
+@keyframes fadeIn {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
 }
 
 .top-content {
