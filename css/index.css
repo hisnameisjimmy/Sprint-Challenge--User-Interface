@@ -119,32 +119,28 @@ header nav a {
     color: #000;
     font-size: 14px;
     opacity: 0;
-    animation: fadeIn 0.9s 1;
+    animation: fadeIn 0.25s 1;
     animation-fill-mode: forwards;
 }
   
 header nav a:nth-child(5n+1) {
-    animation-delay: 0.5s;
+    animation-delay: 0.25s;
 }
 
 header nav a:nth-child(5n+2) {
-    -webkit-animation-delay: 1.0s;
-    animation-delay: 1.0s;
+    animation-delay: 0.5s;
 }
 
 header nav a:nth-child(5n+3) {
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
+    animation-delay: 0.75s;
 }
 
 header nav a:nth-child(5n+4) {
-    -webkit-animation-delay: 2.0s;
-    animation-delay: 2.0s;
+    animation-delay: 1.0s;
 }
 
 header nav a:nth-child(5n+5) {
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
+    animation-delay: 1.25s;
 }
   
 @keyframes fadeIn {
